@@ -105,3 +105,16 @@ pq.push(10);//(10,8,5,2)
 cout<<pq.top();//prints 10
 pq.pop(); //(8,5,2)
 cout<<pq.top();//prints 8
+
+priority_queue<int,vector<int>, greater<int>>pq; //min heap
+
+
+
+//declaration of set
+set<int>st; //it is a collection of unique elements which are sorted.{4,5,7,9}
+st.insert(4); //used to insert the value
+st.insert(5);
+
+
+//declration of the map.
+map<int,int>m; //it is a collection of key value pairs.
