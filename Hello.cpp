@@ -117,4 +117,33 @@ st.insert(5);
 
 
 //declration of the map.
-map<int,int>m; //it is a collection of key value pairs.
+map<int,int>m; //it is a collection of key value pairs. {key,value} key values are sorted and unique
+{
+    1-->2
+    3-->4
+    5-->7
+}
+
+m[1]=2;
+m[3]=4;
+m[5]=7;
+
+//traversing the map;
+for(auto it:m)
+{
+    cout<<it.first<<""<<it.second; // print 1 2
+}
+
+cout<<m[5]// prints 7
+
+//unordered map
+unordered_map<int,int>um; //key values are unsorted and unique.
+
+arr={3,2,5,4,7};
+
+sort(arr, arr+n);// sorts the arr array were n is the number of element of the arr.
+sort(arr, arr+5);// {2,3,4,5,7}
+
+v={3,2,5,4,7}
+sort(v.begin(), v.end()); //sorts the element in the vector v. {2,3,4,5,7}
+
